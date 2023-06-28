@@ -1,0 +1,27 @@
+par =@(inputArg1,inputArg2) (inputArg1*inputArg2)/(inputArg1+inputArg2);
+x=linspace(10,1001,100000);
+    f1=figure;
+    grid on;
+    semilogx(x,abs());
+    ylabel('Voltage V');
+    xlabel('Frequency Hz');
+    title('ECE 214: Lab 10 TEC');
+    f2=figure;
+    grid on;
+    semilogx(x,angle());
+    ylabel('Angle ^{\circ}');
+    xlabel('Frequency Hz');
+    title('ECE 214: Lab 10 TEC');
+    f3=figure;
+    grid on;
+    semilogx(x,real());
+    ylabel('Resistance \ohm');
+    xlabel('Frequency Hz');
+    title('ECE 214: Lab 10 TEC');
+    f4=figure;
+    grid on;
+    semilogx(x,imag());
+    ylabel('Imaginary \ohm');
+    xlabel('Frequency Hz');
+    title('ECE 214: Lab 10 TEC');
+end

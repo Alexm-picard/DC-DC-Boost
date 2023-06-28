@@ -1,0 +1,65 @@
+
+Circuit: ***** spice netlist for cell 'lab8' *****
+
+binary raw file "simrun.raw"
+Doing analysis at TEMP = -40.000000 and TNOM = 27.000000
+
+No. of Data Columns : 41  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+n2                                          12
+n1                                           4
+vout2                                        6
+vout1                                        4
+x1.9                                   5.99997
+x1.7                                         4
+x1.8                                  0.332565
+x1.4                                         0
+x1.5                                   1.99997
+x1.10                                  1.99997
+x1.11                                  1.99997
+x1.6                                   1.99997
+x2.9                                  0.060713
+x2.7                                         4
+x2.8                                 0.0160923
+n0                                   0.0607144
+x2.4                                         0
+x2.5                                 -0.458158
+x2.10                                 -3.93929
+x2.11                                -0.458148
+x2.6                                 -0.458148
+x0.9                                 0.0404273
+x0.7                                         6
+x0.8                                 0.0161196
+vout3                                0.0404288
+x0.4                                         0
+x0.5                                 -0.461838
+x0.10                                 -5.95957
+x0.11                                -0.461822
+x0.6                                 -0.461822
+v.x0.vfi1#branch                             0
+v.x0.vfi2#branch                  -4.61838e-13
+v.x2.vfi1#branch                             0
+v.x2.vfi2#branch                  -4.58158e-13
+v.x1.vfi1#branch                             0
+v.x1.vfi2#branch                   1.99997e-12
+e.x0.ev16#branch                       10.9955
+e.x2.ev16#branch                       6.96227
+e.x1.ev16#branch                  -6.00009e-12
+v0#branch                           -0.0367287
+
+
+No. of Data Rows : 5377
+
+Total analysis time (seconds) = 0.588
+
+Total elapsed time (seconds) = 0.807 
+
+Total DRAM available = 15720.246 MB.
+DRAM currently available = 4933.297 MB.
+Total ngspice program size =   16.586 MB.
+

@@ -1,0 +1,13 @@
+**** NGspice HSPC file **** 
+**** File: C:\CppSim\SimRuns\ECE214\Lab8/Lab8.hspc **** 
+**** Date: 11-Apr-2023 12:12:15 **** 
+
+.tran 5u 10m 0m 0 
+
+.temp -40
+.global gnd 
+.ic(v(vout2))=6
+
+**** Include Statements ****
+.include ../../../SpiceModels/ECE214_SpiceModels/ECE214_models.mod 
+
